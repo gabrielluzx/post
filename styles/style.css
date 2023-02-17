@@ -1,0 +1,73 @@
+@charset "utf-8";
+* {
+    padding: 0;
+    margin: 0;
+}
+:root {
+    --main-color: #F2A057;
+    --secondary-color: #5E88BF;
+    --additional-color: #613dd7;
+    --header-font: 'Flavors', cursive;
+    --texts-font: 'Work Sans', Verdana, Geneva, Tahoma, sans-serif;
+    --author-font: 'Satisfy', sans-serif, cursive;
+}
+#page-header {
+    text-align: center;
+    padding: 5px 0;
+    background-color: var(--additional-color);
+}
+#logo {
+    margin: 5px 0 15px;
+}
+#header-menu a {
+    display: inline-block;
+    color: white;
+    font-size: 1em;
+    width: 120px;
+    padding: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-family: var(--header-font);
+    border-radius: 10px;
+    transition: 0.8s;
+}
+#header-menu a:hover {
+    color: var(--additional-color);
+    background-color: var(--main-color);
+}
+main {
+    max-width: 100px;
+}
+#page-footer {
+    text-align: center;
+    padding: 5px;
+    color: white;
+    background-color: var(--additional-color);
+}
+#footer-menu {
+    list-style-type: none;
+    list-style-position: inside;
+    columns: 2;
+    font-weight: 900;
+    padding: 10px;
+}
+#page-footer #footer-menu a {
+    color: white;
+    font-size: 0.9em;
+    font-weight: 900;
+    margin: 5px;
+    text-decoration: none;
+    font-family: var(--texts-font);
+}
+#page-footer a:hover {
+    text-decoration-color: var(--main-color);
+    text-decoration-line: underline;
+}
+#page-creator {
+    display: inline-block;
+    margin: 15px 0 0 0;
+    color: var(--main-color);
+    font-weight: 900;
+    font-family: var(--author-font);
+}

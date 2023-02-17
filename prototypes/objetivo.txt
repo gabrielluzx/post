@@ -1,0 +1,1 @@
+O objetivo deste projeto ter um website de um post de um blog. Esse post pode ser feito sobre coisas não populares ou não comentadas, para que o post seja achado facilmente pelo google. Deve haver pelo menos 5 cores e pelo menos 3 tipos de fontes.

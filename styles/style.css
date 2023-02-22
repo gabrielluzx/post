@@ -19,6 +19,10 @@
 #logo {
     margin: 5px 0 15px;
 }
+#header-menu {
+    background-color: var(--additional-color);
+    text-align: center;
+}
 #header-menu a {
     display: inline-block;
     color: white;

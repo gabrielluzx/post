@@ -40,8 +40,10 @@
     color: var(--additional-color);
     background-color: var(--main-color);
 }
-main {
-    max-width: 100px;
+main article {
+    max-width: 800px;
+    padding: 25px;
+    margin: auto;
 }
 #page-footer {
     text-align: center;

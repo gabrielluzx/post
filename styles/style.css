@@ -40,11 +40,6 @@
 <<<<<<< HEAD
 main {
     max-width: 100px;
-=======
-#header-menu a:hover {
-    color: var(--additional-color);
-    background-color: var(--main-color);
-}
 main article {
     max-width: 800px;
     padding: 25px;

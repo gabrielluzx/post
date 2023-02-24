@@ -19,6 +19,10 @@
 #logo {
     margin: 5px 0 15px;
 }
+#header-menu {
+    background-color: var(--additional-color);
+    text-align: center;
+}
 #header-menu a {
     display: inline-block;
     color: var(--additional-color);        background-color: var(--main-color)
@@ -33,8 +37,19 @@
     border-radius: 10px;
     transition: 0.8s;
 }
+<<<<<<< HEAD
 main {
     max-width: 100px;
+=======
+#header-menu a:hover {
+    color: var(--additional-color);
+    background-color: var(--main-color);
+}
+main article {
+    max-width: 800px;
+    padding: 25px;
+    margin: auto;
+>>>>>>> 3126dca67245a78c7a233999b8e60608c4e4ae5b
 }
 #page-footer {
     text-align: center;

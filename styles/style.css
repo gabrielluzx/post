@@ -5,17 +5,14 @@
 }
 :root {
     --main-color: #F2A057;
-    --dark-color: #734C29;
-    --background-color: var(--secondary-color);
     --secondary-color: #2B50A6;
-    --another-color: #5379aa;
-    --additional-color: #613dd7;
-    --header-font: 'Flavors', cursive;
-    --texts-font: 'Work Sans', Verdana, Geneva, Tahoma, sans-serif;
+    --background-color: var(--secondary-color);
+    --decoration-font: 'Flavors', cursive;
+    --text-font: 'Work Sans', Verdana, Geneva, Tahoma, sans-serif;
     --author-font: 'Satisfy', sans-serif, cursive;
 }
 body {
-    font:1.1em/1.5em Verdana, Geneva, Tahoma, sans-serif;
+    font:1.1em/1.5em var(--text-font);
 }
 #page-header {
     text-align: center;
@@ -37,7 +34,7 @@ body {
     color: var(--main-color);
     text-decoration-line: none;
     text-transform: uppercase;
-    font: bolder 1.2em Arial, Helvetica, sans-serif;
+    font: bolder 1.2em var(--text-font);
     width: 160px;
     padding: 5px;
     border-radius: 3px;
@@ -54,12 +51,11 @@ main article {
     line-height: 1.8em;
     width: 65vw;
     padding: 35px;
-    margin: auto;
     float: left;
 }
 aside {
     color: var(--secondary-color);
-    background-color: var(--main-color);
+    background-color: #bbb/*var(--main-color)*/;
     text-align: center;
     line-height: 1em;
     width: 220px;
@@ -77,17 +73,20 @@ aside h3 {
 #aside-links li {
     padding: 10px 0;
 }
-#aside-link a {
+#aside-links a {
     color: var(--additional-color);
     text-decoration: none;
 }
 #aside-links a:hover {
     text-decoration-line: underline;
 }
+#aside-link a:visited {
+    color: #1B8DA6;
+}
 #page-footer {
     clear: both;
     color: white;
-    background-color: var(--secondary-color);
+    background-color: var(--background-color);
     text-align: center;
     padding: 5px;
     

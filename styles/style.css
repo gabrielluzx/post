@@ -21,7 +21,8 @@
 }
 #header-menu a {
     display: inline-block;
-    color: white;
+    color: var(--additional-color);        background-color: var(--main-color)
+;
     font-size: 1em;
     font-family: sans-serif;
     width: 120px;
@@ -31,10 +32,6 @@
     font-weight: 900;
     border-radius: 10px;
     transition: 0.8s;
-}
-#header-menu a:hover {
-    color: var(--additional-color);
-    background-color: var(--main-color);
 }
 main {
     max-width: 100px;

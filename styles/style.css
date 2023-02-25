@@ -23,7 +23,7 @@ header#page-header, nav#menu {
     padding: 3px;
 }
 #logo {
-    width: 216px;
+    width: 125px;
     height: 100px;
 }
 #page-header img {
@@ -39,7 +39,7 @@ div#links-container {
     color: white;
     text-decoration-line: none;
     text-transform: uppercase;
-    font: bolder 95% var(--text-font);
+    font: bolder 95% 'Righteous', cursive;
     width: 25%;
     max-width: 200px;
     padding: 10px 5px;
@@ -74,26 +74,26 @@ main article {
     height: 40px;
 }
 .bottom-link {
-    color: var(--main-color);
+    color: white;
     font-weight: bolder;
-    font-size: 0.8em;
+    font-size: max(1.2vw) min(50px);
     text-decoration-line: none;
-    padding: 5px 10px;
+    padding: 5px 15px;
     display: inline-block;
 }
 .bottom-link:hover {
    text-decoration: underline;
 }
 small {
-    color: var(--madeby-color);
+    color: var(--main-color);
     display: block;
-    padding: 10px 0 0;
+    padding: 10px 0;
     font-family: var(--lovely-font);
     font-weight: bolder;
 }
 #author-link {
     text-decoration: underline;
-    color: var(--madeby-color);
+    color: var(--main-color);
 }
 #author-link:hover {
     color: var(--main-color);

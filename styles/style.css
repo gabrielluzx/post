@@ -7,6 +7,7 @@
     --main-color: #F2A057;
     --secondary-color: #2B50A6;
     --background-color: var(--secondary-color);
+    --madeby-color: #101E40;
     --gradient-bottom: linear-gradient(to bottom, var(--secondary-color), #203c7f);
     --decoration-font: 'Flavors', cursive;
     --text-font: 'Work Sans', Verdana, Geneva, Tahoma, sans-serif;
@@ -52,19 +53,20 @@ main article {
     margin: 0 auto;
 }
 
-
-
-
 #page-footer {
     color: var(--main-color);
     background: var(--gradient-bottom);
     text-align: center;
-    padding: 5px;
+    padding: 15px 5px 5px;
 }
 #page-footer ul {
     margin: 0 auto;
     list-style-type: none;
     columns: 2;
+}
+.list-icon {
+    width: 40px;
+    height: 40px;
 }
 .bottom-link {
     color: var(--main-color);
@@ -76,14 +78,17 @@ main article {
 .bottom-link:hover {
    text-decoration: underline;
 }
-
 small {
+    color: var(--madeby-color);
     display: block;
-    padding: 30px 0 0;
+    padding: 10px 0 0;
     font-family: var(--lovely-font);
     font-weight: bolder;
 }
 #author-link {
     text-decoration: underline;
-    color:#3e72ec;
+    color: var(--madeby-color);
+}
+#author-link:hover {
+    color: var(--main-color);
 }

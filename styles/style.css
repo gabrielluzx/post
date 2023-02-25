@@ -32,11 +32,12 @@ div#links-container {
     margin: 0 auto;
 }
 .top-link {
-    color: var(--main-color);
+    color: white;
     text-decoration-line: none;
     text-transform: uppercase;
     font: bolder 95% var(--text-font);
     width: 25%;
+    max-width: 200px;
     padding: 10px 5px;
     border-radius: 3px;
     display: inline-block;

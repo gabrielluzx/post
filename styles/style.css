@@ -22,6 +22,10 @@ header#page-header, nav#menu {
     background-color: var(--secondary-color);
     padding: 3px;
 }
+#logo {
+    width: 216px;
+    height: 100px;
+}
 #page-header img {
     padding-top: 15px;
 }
@@ -73,8 +77,9 @@ main article {
     color: var(--main-color);
     font-weight: bolder;
     font-size: 0.8em;
-    
     text-decoration-line: none;
+    padding: 5px 10px;
+    display: inline-block;
 }
 .bottom-link:hover {
    text-decoration: underline;

@@ -69,6 +69,15 @@ article figure {
     text-align: center;
     list-style: none;
 }
+#footer hr {
+    display: block;
+    width: 70%;
+    height: 0.1px;
+    --dark-additional-color: #203283;
+    background-color: var(--dark-additional-color);
+    border: none;
+    margin: 30px auto;
+}
 #footer small {
     color: var(--normal-color);
     font-family: var(--decoration-font);

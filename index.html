@@ -9,24 +9,26 @@
     <title>Animais aquáticos que parecem pets</title>
     <link rel="shortcut icon" href="./content/website/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="./styles/fonts.css">
-    <link rel="stylesheet" href="./styles/style.css" disalbled>
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/dekstop.css" media="screen and (min-width:1000px)">
+    
+    
 </head>
 <body>
-    <header id="page-header">
-        <picture>
-            <a href="./index.html" rel="internal">
-                <source media="(max-width: 100px)" srcset="./content/website/logo-p.png">
-                <img src="./content/website/logo.svg" alt="Logo do site" title="Logo do site" tabindex="0" id="logo">
-            </a>
-        </picture>
+    <header id="header">
+        <a href="./index.html" rel="internal">
+            <img src="./content/website/logo.png" alt="Nossa logo" title="Nossa logo" id="logo"tabindex="0"/>
+        </a>
+        <h1>Mundo Pet</h1>
+        <nav id="navbar">
+            <i id="menu-icon"></i>
+            <div id="links-container">
+                <a href="#" rel="internal" class="top-link" title="Home" >Home</a>
+                <a href="#" rel="internal" class="top-link" title="Veja nossos eventos" >Eventos</a>
+                <a href="#" rel="internal" class="top-link" title="Fale conosco" >Contato</a>
+            </div>
+        </nav>
     </header>
-    <nav id="menu">
-        <div id="links-container">
-            <a href="#" rel="internal" title="Home" class="top-link">home</a>
-            <a href="#" rel="internal" title="Veja nossos eventos" class="top-link">eventos</a>
-            <a href="#" rel="internal" title="Fale conosco" class="top-link">contato</a>
-        </div>
-    </nav>
     <main>
         <article>
             <h1 tabindex="0">Animais aquáticos que parecem pets</h1>
@@ -34,19 +36,20 @@
             </p>
         </article>
     </main>
-    <footer id="page-footer">
-        <ul>
-            
-            <li><a href="#page-header" class="bottom-link" rel="internal" title="Voltar ao topo">Voltar ao topo</a></li>
-            <li><a href="#" class="bottom-link" rel="internal" title="Acompanhar eventos">Eventos</a></li>
-            <li><a href="#" class="bottom-link" rel="internal" title="Fale conosco">Contato</a></li>
-          
-            <li><a href="#" class="bottom-link" rel="external" target="_blank" title="Visite o IconArchive">icones e logos</a></li>
-            <li><a href="#" class="bottom-link" rel="external" target="_blank" title="Confira o repositório do projeto">Repositório</a></li>
-            <li><a href="#" class="bottom-link" rel="external" target="_blank" title="Confira outros projetos">Projetos</a></li>
+    <footer id="footer">
+        <ul id="footer-links-list">
+            <li><a href="#page-header" rel="internal" title="Voltar ao topo" class="footer-link">Voltar ao topo</a></li>
+            <li><a href="#" rel="internal" title="Acompanhar eventos" class="footer-link">Eventos</a></li>
+            <li><a href="#" rel="internal" title="Fale conosco" class="footer-link">Contato</a></li>
+            <li><a href="#" rel="external" target="_blank" title="Visite o IconArchive" class="footer-link">icones e logos</a></li>
+            <li><a href="#" rel="external" target="_blank" title="Confira o repositório do projeto" class="footer-link">Repositório</a></li>
+            <li><a href="#" rel="external" target="_blank" title="Confira outros projetos" class="footer-link">Projetos</a></li>
         </ul>
-        <small tabindex="0" id="page-creator">Feito por <a href="https://www.github.com/gabrielluz-prog" target="_blank" rel="external" title="Perfil do criador do site :)" id="author-link" tabindex="0">Gabriel</a> em 2023</small>
-        
+        <small id="page-creator" tabindex="0">
+            Feito por 
+            <a href="https://www.github.com/gabrielluz-prog" target="_blank" rel="external" title="Perfil do criador do site :)" tabindex="0">Gabriel</a>
+             em 2023
+        </small> 
     </footer>
 </body>
 </html>

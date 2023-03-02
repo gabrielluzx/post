@@ -4,18 +4,14 @@
     overflow: auto;
 }
 #logo {
-    width: 80px;
-    height: auto;
     padding: 5px;
     float: left;
 }
 #header h1 {
-    font-size: 2.5em;
     padding: 20px 5px 0;
     float: left;
 }
 #menu-icon {
-    width: 40px;
     padding: 23px 0;
     float: right;
 }
@@ -27,7 +23,7 @@
 }
 #navbar {
     display: none;
-    background-color: rgb(255, 255, 255);
+    background-color: var(--dark-additional-color);
     width: 200px;
     padding: 20px;
     border-radius: 0 0 0 15px;
@@ -40,12 +36,36 @@
     padding: 20px;
 }
 #navbar a {
-    color: black;
+    color: white;
     display: block;
     font-size: 1.3em;
     line-height: 3em;
     text-align: center;
 }
 #navbar a:hover {
-    text-decoration: underline black solid;
+    text-decoration: underline var(--normal-color) solid;
+}
+@media screen and (max-width: 450px) {
+    #logo {
+        width: 60px;
+        height: auto;
+        padding: 10px 5px;
+    }
+    #header h1 {
+        padding: 24px 0 0;
+        font-size: 2em;
+    }
+}
+@media screen and (max-width: 449px) {
+    #logo {
+        width: 18vw/* 50px;*/;
+        height: auto;
+    }
+    #header h1 {
+        font-size: 9vw/*1.5em*/;
+    }
+    #menu-icon {
+        width: 10vw /*30px*/;
+        height: auto;
+    }
 }

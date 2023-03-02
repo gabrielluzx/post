@@ -12,22 +12,33 @@
     --title-font: 'Cinzel', Georgia, 'Times New Roman', Times, serif;
     --text-font: 1.1em 'Montserrat', Tahoma, Geneva, Verdana, sans-serif;
 }
-
-
-
 #header, #footer {
     background-image: linear-gradient(to bottom, var(--additional-color), var(--dark-additional-color));
 }
 #header * {
     transition: 0.8s;
 }
+#logo {
+    width: 80px;
+    height: 80px;
+}
+#menu-icon {
+    width: 40px;
+    height: 40px;
+}
+#close-icon {
+    width: 30px;
+    height: 30px;
+}
+#menu-icon:hover, #close-icon:hover {
+    opacity: 0.5;
+}
 #logo-container {
     cursor: pointer;
 }
 #header h1 {
     color: var(--normal-color);
-    font-weight: bolder;
-    font-family: var(--decoration-font);
+    font: bolder 2.5em var(--decoration-font);
 }
 #navbar a {
     color: white;
@@ -49,7 +60,7 @@ main {
     margin: 0 auto;
 }
 article {
-    padding: 15px 0;
+    padding: 15px 20px;
 }
 article h1, article h2, article h3 {
     font-weight: 500;

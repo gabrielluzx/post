@@ -15,6 +15,9 @@
 #header, #footer {
     background-image: linear-gradient(to bottom, var(--additional-color), var(--dark-additional-color));
 }
+#header * {
+    transition: 0.8s;
+}
 #header h1 {
     color: var(--normal-color);
     font-weight: bolder;

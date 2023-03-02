@@ -12,11 +12,17 @@
     --title-font: 'Cinzel', Georgia, 'Times New Roman', Times, serif;
     --text-font: 1.1em 'Montserrat', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+
+
 #header, #footer {
     background-image: linear-gradient(to bottom, var(--additional-color), var(--dark-additional-color));
 }
 #header * {
     transition: 0.8s;
+}
+#logo-container {
+    cursor: pointer;
 }
 #header h1 {
     color: var(--normal-color);
@@ -29,6 +35,14 @@
     font-family: var(--decoration-font);
     text-decoration-line: none;
 }
+#navbar a:link {
+    color: white;
+}
+
+
+
+
+
 main {
     max-width: 900px;
     min-width: 200px;

@@ -15,13 +15,13 @@
 </head>
 <body>
     <header id="header">
-        <a href="./index.html" rel="internal">
-            <img src="./content/website/logo.png" alt="Nossa logo" title="Nossa logo" id="logo"tabindex="0"/>
-        </a>
-        <h1>Mundo Pet</h1>
-        <img src="./content/website/menu-icon.png" alt="icone de menu" id="menu-icon" tabindex="0"/>
+        <div id="logo-container" onclick="document.location='./index.html'">
+            <img src="./content/website/logo.png" alt="Logo do mundo pet" title="Logo do mundo pet" id="logo" tabindex="0"/>
+            <h1 tabindex="0">Mundo Pet</h1>
+        </div>
+        <img src="./content/website/menu-icon.png" alt="Abrir menu de links" title="Abrir menu de links" id="menu-icon" tabindex="0"/>
         <nav id="navbar">
-            <img src="./content/website/close-icon.png" alt="X" id="close-icon">
+            <img src="./content/website/close-icon.png" alt="Fechar menu de links" title="Fechar menu de links" id="close-icon" tabindex="0"/>
             <div id="links-container">
                 <a href="#" rel="internal" class="top-link" title="Home" >Home</a>
                 <a href="#" rel="internal" class="top-link" title="Veja nossos eventos" >Eventos</a>
@@ -48,9 +48,10 @@
         <hr>
         <small id="page-creator" tabindex="0">
             Feito por 
-            <a href="https://www.github.com/gabrielluz-prog" target="_blank" rel="external" title="Perfil do criador do site :)" tabindex="0">Gabriel</a>
+            <a href="https://www.github.com/gabrielluz-prog" target="_blank" rel="external" title="Perfil do criador do site" tabindex="0">Gabriel</a>
              em 2023
         </small> 
     </footer>
+    <script src="./scripts/navbarControl.js"></script>
 </body>
 </html>

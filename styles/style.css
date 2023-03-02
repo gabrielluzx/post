@@ -71,9 +71,9 @@ article figure {
 }
 #footer hr {
     display: block;
-    width: 70%;
-    height: 0.1px;
-    --dark-additional-color: #203283;
+    width: 65%;
+    height: 0.6px;
+    --dark-additional-color: #354b9a;
     background-color: var(--dark-additional-color);
     border: none;
     margin: 30px auto;

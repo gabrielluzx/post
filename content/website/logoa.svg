@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="16.0px"
+   height="16.0px"
+   viewBox="0 0 16.0 16.0"
+   version="1.1"
+   id="SVGRoot"
+   sodipodi:docname="logoa.svg"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview3710"
+     pagecolor="#ffffff"
+     bordercolor="#111111"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="1"
+     inkscape:document-units="px"
+     showgrid="true"
+     inkscape:zoom="0.01"
+     inkscape:cx="350"
+     inkscape:cy="40500"
+     inkscape:window-width="1280"
+     inkscape:window-height="647"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1">
+    <inkscape:grid
+       type="xygrid"
+       id="grid3716" />
+  </sodipodi:namedview>
+  <defs
+     id="defs3705" />
+  <g
+     inkscape:label="Camada 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#ff9955;stroke:#6a0072;stroke-opacity:0.434069"
+       id="rect3763"
+       width="61440"
+       height="7680"
+       x="-29440"
+       y="7680" />
+    <rect
+       style="fill:#ff9955;stroke:#6a0072;stroke-opacity:0.434069"
+       id="rect3771"
+       width="61440"
+       height="7680"
+       x="-29440"
+       y="20480" />
+    <rect
+       style="fill:#ff9955;stroke:#6a0072;stroke-opacity:0.434069"
+       id="rect3845"
+       width="61440"
+       height="7680"
+       x="-29440"
+       y="33280" />
+    <rect
+       style="fill:#ff9955;stroke:#6a0072;stroke-opacity:0.434069;opacity:1"
+       id="rect3847"
+       width="61440"
+       height="7680"
+       x="-29440"
+       y="46080" />
+  </g>
+</svg>

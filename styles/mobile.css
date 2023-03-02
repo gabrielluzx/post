@@ -1,0 +1,22 @@
+@charset "utf-8";
+#header {
+    padding: 0 15px;
+    overflow: auto;
+}
+#logo {
+    width: 80px;
+    padding: 5px;
+    float: left;
+}
+#header h1 {
+    float: left;
+    padding: 25px 5px 0;
+}
+#menu-icon {
+    width: 40px;
+    padding: 23px 0;
+    float: right;
+}
+#navbar {
+    display: none;
+}

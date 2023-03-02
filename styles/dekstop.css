@@ -17,6 +17,9 @@
     padding: 22px 5px 0;
     float: left;
 }
+#menu-icon {
+    display: none;
+}
 #navbar {
     float: right;
 }

@@ -51,8 +51,6 @@
 #main-title, #menu-icon, #close-icon, #navbar, .nav-link {
     transition: 0.7s;
 } 
-
-
 main {
     max-width: 900px;
     min-width: 200px;
@@ -62,7 +60,7 @@ main {
 article {
     padding: 15px 0;
 }
-section {
+article header, section {
     padding: 10px 25px;
 }
 .title {
@@ -72,7 +70,10 @@ section {
     padding: 0 0 0 5px;
     border-left: 6px solid var(--normal-color);
     margin: 20px 0;
-}
+}/*
+.title:hover::after {
+    content: '🔗';
+}*/
 h1.title {
     font-size: 1.8em;
 }
@@ -90,7 +91,29 @@ h3.title {
 }
 figure {
     text-align: center;
+    margin-bottom: 20px;
 }
+figure img {
+    width: 90%;
+    height: auto;
+    border-radius: 10px;
+}
+figcaption {
+    font-variant: small-caps;
+    font-family: var(--text-font);
+}
+#video {
+    position: relative;
+    padding-bottom: 50%;
+}
+#video iframe {
+    position: absolute;
+    top: 5%;
+    left: 11%;
+    width: 78%;
+    height: 90%;
+}
+
 #footer {
     padding: 10px;
 }
@@ -106,8 +129,8 @@ figure {
     font-family: var(--decoration-font);
     text-decoration: none;
     line-height: 1.5em;
+    display: inline-block;
     padding: 10px;
-    margin: 10px;
 }
 .list-link:link {
     color: white;
@@ -124,17 +147,17 @@ hr {
     border: none;
     margin: 30px auto;
 }
-#footer small {
+#creator-credit {
     color: var(--normal-color);
     font-family: var(--decoration-font);
     text-align: center;
     display: block;
     margin: 15px 0 0;
 }
-#footer small a {
+#creator-link {
     color: white;
-    text-decoration: underline var(--normal-color) wavy;
 }
-#footer small a:hover {
+#creator-link:hover {
     color: var(--normal-color);
+    text-decoration: none;
 }

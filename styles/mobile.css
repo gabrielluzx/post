@@ -36,6 +36,15 @@
 .nav-link:hover {
     text-decoration: underline var(--normal-color) solid;
 }
+h1.title {
+    font-size: 1.6em;
+}
+h2.title {
+    font-size: 1.4em;
+}
+h3.title {
+    font-size: 1.2em;
+}
 .text {
     text-align: start;
 }

@@ -1,38 +1,18 @@
 @charset "utf-8";
 #header {
     padding: 0 0 0 15px;
-    overflow: auto;
 }
-#logo {
-    padding: 5px;
-    float: left;
-}
-#header h1 {
-    padding: 20px 5px 0;
-    float: left;
-}
-#menu-icon , #close-icon {
+#menu-icon, #close-icon {
     display: none;
 }
 #navbar {
     float: right;
 }
 #navbar a {
-    font-size: 1.2em;
     display: inline-block;
     padding: 34px;
-    transition: 0.3s;
 }
 #navbar a:hover {
     color: var(--additional-color);
     background-image: linear-gradient(to bottom, var(--normal-color), var(--dark-normal-color));
-}
-
-
-
-
-#footer-links-list {
-    columns: 3;
-    width: 800px;
-    margin: auto;
 }

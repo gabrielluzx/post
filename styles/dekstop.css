@@ -8,11 +8,11 @@
 #navbar {
     float: right;
 }
-#navbar a {
+.nav-link {
     display: inline-block;
     padding: 34px;
 }
-#navbar a:hover {
+.nav-link:hover {
     color: var(--additional-color);
     background-image: linear-gradient(to bottom, var(--normal-color), var(--dark-normal-color));
 }

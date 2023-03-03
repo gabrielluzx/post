@@ -28,19 +28,20 @@
 #links-container {
     padding: 20px;
 }
-#navbar a {
+.nav-link {
     display: block;
     line-height: 3em;
     text-align: center;
 }
-#navbar a:hover {
+.nav-link:hover {
     text-decoration: underline var(--normal-color) solid;
 }
-.footer-link {
-    font-size: 0.8;
+#links-list {
+    columns: 2;
 }
-
-
+.list-link {
+    font-size: 0.8em;
+}
 @media screen and (max-width: 450px) {
     #logo {
         width: 60px;
@@ -51,9 +52,7 @@
         padding: 24px 0 0;
         font-size: 2em;
     }
-    #footer-links-list {
-        columns: 2;
-    }
+   
 }
 @media screen and (max-width: 440px) {
     #logo {
@@ -66,8 +65,5 @@
     #menu-icon {
         width: 10vw;
         height: auto;
-    }
-    #footer-links-list {
-        columns: 2;
     }
 }

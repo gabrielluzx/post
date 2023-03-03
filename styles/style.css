@@ -15,9 +15,6 @@
 #header, #footer {
     background-image: linear-gradient(to bottom, var(--additional-color), var(--dark-additional-color));
 }
-#header * {
-    transition: 0.8s;
-}
 #logo {
     width: 80px;
     height: 80px;
@@ -25,13 +22,11 @@
 #menu-icon {
     width: 40px;
     height: 40px;
+    opacity: 0.8;
 }
 #close-icon {
     width: 30px;
     height: 30px;
-}
-#menu-icon:hover, #close-icon:hover {
-    opacity: 0.5;
 }
 #logo-container {
     cursor: pointer;
@@ -49,11 +44,9 @@
 #navbar a:link {
     color: white;
 }
-
-
-
-
-
+#header h1, #menu-icon, #close-icon, #navbar, #navbar a {
+    transition: 0.7s;
+} 
 main {
     max-width: 900px;
     min-width: 200px;
@@ -65,11 +58,11 @@ article {
 article h1, article h2, article h3 {
     font-weight: 500;
     font-family: var(--title-font);
-    padding: 18px 0;
+    padding: 20px 0;
 }
 article p {
     font: var(--text-font);
-    text-align: left;
+    text-align: justify;
     text-indent: 20px;
     line-height: 1.9em;
 }

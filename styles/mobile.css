@@ -36,6 +36,9 @@
 .nav-link:hover {
     text-decoration: underline var(--normal-color) solid;
 }
+.text {
+    text-align: start;
+}
 #links-list {
     columns: 2;
 }

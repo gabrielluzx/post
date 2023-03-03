@@ -47,7 +47,7 @@
         height: auto;
         padding: 10px 5px;
     }
-    #header h1 {
+    #main-title {
         padding: 24px 0 0;
         font-size: 2em;
     }
@@ -60,7 +60,7 @@
         width: 18vw;
         height: auto;
     }
-    #header h1 {
+    #main-title {
         font-size: 9vw;
     }
     #menu-icon {

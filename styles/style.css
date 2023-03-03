@@ -22,7 +22,7 @@
     padding: 5px;
     float: left;
 }
-#header h1 {
+#main-title {
     color: var(--normal-color);
     font: bolder 2.5em var(--decoration-font);
     padding: 20px 5px 0;
@@ -48,7 +48,7 @@
 #navbar a:link {
     color: white;
 }
-#header h1, #menu-icon, #close-icon, #navbar, #navbar 
+#main-title, #menu-icon, #close-icon, #navbar, #navbar 
 a {
     transition: 0.7s;
 } 

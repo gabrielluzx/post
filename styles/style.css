@@ -31,10 +31,12 @@
 #menu-icon {
     width: 40px;
     height: 40px;
+    background: transparent url("../content/icons/css_sprites.png") no-repeat -10px 12px;
 }
 #close-icon {
     width: 30px;
     height: 30px;
+    background: transparent url("../content/icons/css_sprites.png") no-repeat -70px -10px;
 }
 #logo-container {
     cursor: pointer;

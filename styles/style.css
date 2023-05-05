@@ -1,33 +1,12 @@
 @charset "utf-8";
-* {
-    padding: 0;
-    margin: 0;
-}
-:root {
-    --normal-color: #f2a057;
-    --dark-normal-color: #c17f46;
-    --additional-color: #2b50a6;
-    --dark-additional-color: #1e3c83;
-    --decoration-font: 'Righteous',sans-serif, cursive;
-    --title-font: 'Cinzel', Georgia, 'Times New Roman', Times, serif;
-    --text-font: 1.1em 'Montserrat', Tahoma, Geneva, Verdana, sans-serif;
-}
-.header, #footer {
-    background-image: linear-gradient(to bottom, var(--additional-color), var(--dark-additional-color));
-    overflow: auto;
-}
-#logo {
-    width: 80px;
-    height: 80px;
-    padding: 5px;
-    float: left;
-}
-#main-title {
-    color: var(--normal-color);
-    font: bolder 2.5em var(--decoration-font);
-    padding: 20px 5px 0;
-    float: left;
-}
+@import url(./base/imp.css);
+@import url(./components/imp.css);
+@import url(./layouts/imp.css);
+
+
+
+
+
 #menu-icon {
     width: 40px;
     height: 40px;
@@ -38,21 +17,9 @@
     height: 30px;
     background: transparent url("../content/icons/css_sprites.png") no-repeat -70px -10px;
 }
-#logo-container {
-    cursor: pointer;
-}
-.nav-link {
-    color: white;
-    font-weight: bolder;
-    font: 1.2em var(--decoration-font);
-    text-decoration-line: none;
-}
-.nav-link:link {
-    color: white;
-}
-#main-title, #menu-icon, #close-icon, #navbar, .nav-link {
-    transition: 0.7s;
-} 
+
+
+
 main {
     max-width: 900px;
     min-width: 200px;

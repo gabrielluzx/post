@@ -1,11 +1,24 @@
+@import url(./rotate-animation.css);
 .logo-container {
-    float: left;
+    cursor: pointer;
     width: max-content;
     height: max-content;
+    padding: 0.535rem 0;
+    float: left;
 }
-.logo {
-    width: 80px;
-    height: 80px;
-    padding: 5px;
-    
+.logo-container .logo-image {
+    width: 70px;
+    height: 70px;
+    transform: translate(-100px, 0) rotate(0deg);
+    animation: logo-rotate .5s linear forwards;
+    float: left;
+}
+.logo-container .logo-title {
+    font: bolder 2.5rem var(--decoration);
+    padding: 0.625rem 0.3125rem 0;
+    float: left;
+}
+.logo-container .logo-link {
+    color: var(--primary);
+    text-decoration: none;
 }

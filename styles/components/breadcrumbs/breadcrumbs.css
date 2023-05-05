@@ -1,0 +1,21 @@
+.breadcrumbs {
+    list-style: none;
+    font-family: var(--text);
+    width: max-content;
+    margin: 0 auto;
+}
+.breadcrumb-li:not(:first-child)::before {
+    content: " / ";
+    color: var(--dark-secondary);
+    font-weight: bolder;
+}
+.breadcrumb-li {
+    display: inline-block;
+}
+.breadcrumb-li a {
+    color: #606060;
+    text-decoration: none;
+}
+.breadcrumb-li a:hover {
+    text-decoration: underline;
+}

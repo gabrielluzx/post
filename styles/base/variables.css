@@ -1,13 +1,13 @@
 :root {
     /** COLORS **/
-    --normal-color: #f2a057;
-    --dark-normal-color: #c17f46;
-    --additional-color: #2b50a6;
-    --dark-additional-color: #1e3c83;
+    --primary: #f2a057;
+    --dark-primary: #c17f46;
+    --secondary: #2b50a6;
+    --dark-secondary: #1e3c83;
 
     /* FONTS **/
-    --decoration-font: 'Righteous',sans-serif, cursive;
-    --title-font: 'Cinzel', Georgia, 'Times New Roman', Times, serif;
-    --text-font: 1.1em 'Montserrat', Tahoma, Geneva, Verdana, sans-serif;
+    --decoration: 'Righteous',sans-serif, cursive;
+    --titles: 'Cinzel', Georgia, 'Times New Roman', Times, serif;
+    --text: 1.1rem 'Montserrat', Tahoma, Geneva, Verdana, sans-serif;
     
 }

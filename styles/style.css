@@ -12,7 +12,7 @@
     --title-font: 'Cinzel', Georgia, 'Times New Roman', Times, serif;
     --text-font: 1.1em 'Montserrat', Tahoma, Geneva, Verdana, sans-serif;
 }
-#header, #footer {
+.header, #footer {
     background-image: linear-gradient(to bottom, var(--additional-color), var(--dark-additional-color));
     overflow: auto;
 }

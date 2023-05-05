@@ -6,9 +6,10 @@
     <meta name="author" content="gabriel henrique luz">
     <meta name="description" content="Alguns animais são realmente parecidos, mas você já viu algum animals aquático que se pareça com um animal que podemos ter em casa? vamos ver agora aqui no site.">
     <meta name="robots" content="INDEX, FOLLOW">
-    <title>Animais aquáticos que parecem pets</title>
-    <link rel="shortcut icon" href="./content/ico/favicon.ico" type="image/x-icon">
 
+    <title>Animais aquáticos que parecem pets</title>
+
+    <link rel="shortcut icon" href="./content/ico/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="./styles/fonts.css">
     <link rel="stylesheet" href="./styles/style.css">
     <link rel="stylesheet" href="./styles/dekstop.css" media="screen and (min-width:1000px)">
@@ -16,11 +17,19 @@
 
 </head>
 <body>
+
+
     <header id="header" class="header">
-        <a href="./index.html" class="logo-link">
-            <img src="./content/logo/logo.png" alt="Logo do mundo pet" title="Logo do mundo pet" id="logo" tabindex="0"/>
-        </a>
-        <h1 id="main-title" class="ti tle logo-title" tabindex="0">Mundo Pet</h1>
+        <div class="logo-container">
+            <a href="./index.html" class="logo-link">
+                <img src="./content/logo/logo.png" alt="Logo do mundo pet" title="Logo do mundo pet" id="logo-image" tabindex="0"/>
+            </a>
+            <h1 id="main-title" class="logo-title" tabindex="0">
+                <a href="./index.html" rel="internal" class="logo-link">
+                    Mundo Pet
+                </a>
+            </h1>
+        </div>
         <span id="menu-icon"></span>
         <nav id="navbar">
             <span id="close-icon"></span>
@@ -31,6 +40,9 @@
             </div>
         </nav>
     </header>
+
+
+
     <main>
         <article>
             <header>

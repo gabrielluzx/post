@@ -7,7 +7,7 @@
     height: auto;
     border-radius: 3px;
     object-fit: cover;
-    aspect-ratio: 16/10;
+    aspect-ratio: 16/9;
 }
 .figure-caption {
     font-variant: small-caps; 

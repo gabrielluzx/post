@@ -1,0 +1,17 @@
+.figure-container {
+    text-align: center;
+    margin: 20px;
+}
+.figure {
+    width: 90%;
+    height: auto;
+    border-radius: 3px;
+    object-fit: cover;
+    aspect-ratio: 16/10;
+}
+.figure-caption {
+    font-variant: small-caps; 
+    font-size:  0.9500rem;
+    font-family:  var(--text-font);
+    padding: 10px 0;
+}

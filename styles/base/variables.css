@@ -7,7 +7,7 @@
 
     /* FONTS **/
     --decoration: 'Righteous',sans-serif, cursive;
-    --titles: 'Cinzel', Georgia, 'Times New Roman', Times, serif;
-    --text: 1.1rem 'Montserrat', Tahoma, Geneva, Verdana, sans-serif;
+    --title: 'Cinzel', Georgia, 'Times New Roman', Times, serif;
+    --text: 'Montserrat', Tahoma, Geneva, Verdana, sans-serif;
     
 }

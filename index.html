@@ -12,8 +12,6 @@
     <link rel="shortcut icon" href="./content/ico/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="./styles/fonts.css">
     <link rel="stylesheet" href="./styles/style.css">
-    <link rel="stylesheet" href="./styles/dekstop.css" media="screen and (min-width:1000px)">
-    <link rel="stylesheet" href="./styles/mobile.css" media="screen and (max-width: 999px)">
 
 </head>
 <body>
@@ -26,10 +24,10 @@
             </a>
         </div>
 
-        <span id="menu-icon"></span>
+        <span class="menu-icon"></span>
 
         <nav class="navbar">
-            <span id="close-icon"></span>
+            <span class="close-icon"></span>
             <ul class="navmenu">
                 <li class="navmenu-li">
                     <div class="overlay"></div>
@@ -56,6 +54,7 @@
 
     <main class="main">
         <article class="article">
+
             <header>
                 <ul class="breadcrumbs">
                     <li class="breadcrumb-li"><a href="#">Home</a></li>
@@ -67,50 +66,57 @@
                     O mundo aquático é repleto de animais selvagens de diversos tamanhos e formas, alguns deles, parecidos com os bichinhos de estimação que temos em casa,  vamos conferir  alguns deles agora! 
                 </p>
             </header>
-            <section>
+
+            <section id="lobo-marinho">
                 <h2 class="title">Lobo Marinho</h2>
-                <figure>
+                <figure class="figure-container">
                     <picture>
-                        <img src="./content/photos/lobo-marinho.jpg" alt="#"/>
-                        <figcaption>Reprodução: <a rel="external" href="https://unsplash.com/@kace?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Kace  Rodriguez</a></figcaption>
+                        <img src="./content/images/lobo-marinho.jpg" alt="Imagem de um logo marinho" class="figure"/>
+                        <figcaption class="figure-captionn">
+                            Reprodução: <a rel="external" href="https://unsplash.com/@kace?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Kace  Rodriguez</a>
+                        </figcaption>
                     </picture>
                 </figure>
                 <p class="text">
                     O lobo marinho é um mamífero <strong>pinípede</strong> muito parecido com cachorros (<em>principalmente os <a href="#">braquecefálicos</a></em>), veja bem, eles possuem um focinho, cauda, nadadeiras que parecem patas, e até orelhas além de medirem um tamanho de um cãozinho! 
                 </p>
             </section>
-            <section>
+
+            <section id="lontra"> 
                 <h2 class="title">Lontra</h2>
-                <figure>
+                <figure class="figure-container">
                     <picture>
-                        <img src="./content/photos/lontra.jpg" alt=""/>
+                        <img src="./content/images/lontra.jpg" alt="Imagem de uma lontra" class="figure"/>
                     </picture>
-                    <figcaption>Reprodução: <a rel="external" href="https://unsplash.com/@clarbner?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Julie Clarke</a>
+                    <figcaption class="figure-caption">
+                        Reprodução: <a rel="external" href="https://unsplash.com/@clarbner?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Julie Clarke</a>
                     </figcaption>
                 </figure>
                 <p class="text"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum, dolorum eius veniam et animi vel cum sapiente molestiae, aperiam quas delectus necessitatibus incidunt sequi. Itaque mollitia molestiae suscipit animi nobis!</p>
             </section>
-            <section>
+
+            <section id="golfinho">
                 <h2 class="title">Golfinho</h2>
-                <figure>
+                <figure class="figure-container">
                     <picture>
-                        <img src="./content/photos/golfinho.jpg" alt=""/>
+                        <img src="./content/images/golfinho.jpg" alt="Imagem de um golfinho" class="figure"/>
                     </picture>
-                    <figcaption>
-                        Reprodução: <a href="https://unsplash.com/@bryteeyes3?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Ranae Smith</a>
+                    <figcaption class="figure-caption">
+                        Reprodução: <a rel="external" href="https://unsplash.com/@bryteeyes3?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Ranae Smith</a>
                     </figcaption>
                 </figure>
                 <p class="text">
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet eaque debitis dignissimos eius unde voluptatum assumenda eum a obcaecati minus. Odit est tempora voluptatum! Itaque consectetur voluptas fugiat quisquam natus.
                 </p>
             </section>
-            <section>
+
+            <section id="foca">
                 <h2 class="title">Foca</h2>
                 <figure class="figure-container">
                     <picture>
-                        <img src="./content/photos/foca.jpg" alt="Uma foto de uma foca" />
+                        <img src="./content/images/foca.jpg" alt="Uma foto de uma foca" class="figure"/>
                     </picture>
-                    <figcaption>
+                    <figcaption class="figure-caption">
                         Reprodução: <a rel="external" href="https://unsplash.com/@shannonnicolevandy?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Shannon VanDenHeuvel</a>
                     </figcaption>
                 </figure>
@@ -118,12 +124,19 @@
                     Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim asperiores tempora perferendis ea praesentium repellat facere doloribus itaque esse! Doloribus dolor nulla provident, porro natus sed neque voluptate ea distinctio.
                 </p>
             </section>
-            <div id="video"><iframe width="560" height="315" src="https://www.youtube.com/embed/YeDSIaQRN0w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
-            <section>
+
+            <section id="animais-video">
+                <div id="video">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/YeDSIaQRN0w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+                    </iframe>
+                </div>
+            </section>
+
+            <footer>
                 <p class="text">
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut voluptate doloribus porro eos cupiditate cumque necessitatibus nemo itaque odit repellendus fuga facere perspiciatis, molestias assumenda minus, quod amet soluta consequuntur.
                 </p>
-            </section>
+            </footer>
         </article>
     </main>
     <footer id="footer">
@@ -142,6 +155,5 @@
              em 2023
         </small> 
     </footer>
-    <script src="./scripts/navbarControl.js"></script>
 </body>
 </html>

@@ -4,73 +4,22 @@
 @import url(./layouts/imp.css);
 
 
-
-
-
-#menu-icon {
-    width: 40px;
-    height: 40px;
-    background: transparent url("../content/icons/css_sprites.png") no-repeat -10px 12px;
-}
-#close-icon {
-    width: 30px;
-    height: 30px;
-    background: transparent url("../content/icons/css_sprites.png") no-repeat -70px -10px;
-}
-
-
-
-main {
+.main {
     max-width: 900px;
-    min-width: 200px;
     margin: 0 auto;
     font-size: 1.1em;
 }
-article {
+.article {
     padding: 15px 0;
 }
 article header, section {
     padding: 10px 25px;
 }
-.title {
-    color: var(--additional-color);
-    font-weight: 600;
-    font-family: var(--title-font);
-    padding: 0 0 0 5px;
-    border-left: 6px solid var(--normal-color);
-    margin: 20px 0;
-}/*
-.title:hover::after {
-    content: '🔗';
-}*/
-h1.title {
-    font-size: 1.8em;
-}
-h2.title {
-    font-size: 1.6em;
-}
-h3.title {
-    font-size: 1.4em;
-}
-.text {
-    font: var(--text-font);
-    text-align: justify;
-    text-indent: 20px;
-    line-height: 1.9em;
-}
-figure {
-    text-align: center;
-    margin-bottom: 20px;
-}
-figure img {
-    width: 90%;
-    height: auto;
-    border-radius: 10px;
-}
-figcaption {
-    font-variant: small-caps;
-    font-family: var(--text-font);
-}
+
+
+
+
+
 #video {
     position: relative;
 }
@@ -81,6 +30,8 @@ figcaption {
     aspect-ratio: 16/9;
     margin: 0 auto;
 }
+
+
 
 #footer {
     padding: 10px;

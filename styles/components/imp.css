@@ -1,3 +1,8 @@
 @import url(./logo/logo.css);
+@import url(./menu-icon/menu-icon.css);
 @import url(./navbar/navbar.css);
+@import url(./close-icon/close-icon.css);
 @import url(./breadcrumbs/breadcrumbs.css);
+@import url(./title/title.css);
+@import url(./text/text.css);
+@import url(./figure/figure.css);

@@ -14,7 +14,7 @@
     margin: 0 auto;
 }
 .article header, .article section, .article footer {
-    padding: 0.625rem 1.5625rem;
+    padding:0.9375rem 1.5625rem;
 }
 .footer {
     background-color: var(--dark-secondary);

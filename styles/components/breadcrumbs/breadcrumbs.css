@@ -1,7 +1,8 @@
 .breadcrumbs {
     list-style: none;
     font-family: var(--text);
-    width: max-content;
+    max-width: 420.283px;
+    overflow: hidden;
 }
 .breadcrumb-li:not(:first-child)::before {
     content: " / ";
@@ -10,6 +11,9 @@
 }
 .breadcrumb-li {
     display: inline-block;
+    text-overflow: ellipsis;
+    overflow: hidden;
+
 }
 .breadcrumb-li a {
     color: #606060;

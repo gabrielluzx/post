@@ -2,3 +2,21 @@
     background-image: linear-gradient(to bottom, var(--secondary), var(--dark-secondary));
     overflow: hidden;
 }
+.logo-image {
+    width: 70px;
+    height: 70px;
+}
+.menu-icon, .close-icon {
+    display: none;
+}
+.main {
+    max-width: 56.25rem;
+    margin: 0 auto;
+}
+.article header, .article section, .article footer {
+    padding: 0.625rem 1.5625rem;
+}
+.footer {
+    background-color: var(--dark-secondary);
+    padding: 0.625rem;
+}

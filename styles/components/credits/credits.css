@@ -1,0 +1,14 @@
+#creator-credit {
+    color: var(--primary);
+    font-family: var(--decoration);
+    text-align: center;
+    display: block;
+    margin: 0.9375rem 0 0;
+}
+#creator-link {
+    color: white;
+}
+#creator-link:hover {
+    color: var(--primary);
+    text-decoration: none;
+}

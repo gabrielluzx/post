@@ -1,0 +1,9 @@
+hr {
+    --dark-secondary: #354b9a;
+    display: block;
+    width: 65%;
+    height: 0.0625rem;
+    background-color: var(--dark-secondary);
+    border: none;
+    margin: 1.875rem auto;
+}

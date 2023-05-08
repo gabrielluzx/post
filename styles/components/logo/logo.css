@@ -7,8 +7,6 @@
     float: left;
 }
 .logo-container .logo-image {
-    width: 70px;
-    height: 70px;
     transform: translate(-100px, 0) rotate(0deg);
     animation: logo-rotate .5s linear forwards;
     float: left;

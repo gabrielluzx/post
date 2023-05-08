@@ -6,8 +6,8 @@
 }
 .navmenu-li {
     float: left;
-    width: 120px;
-    height: 90px;
+    width: 7.5rem;
+    height: 5.625rem;
     position: relative;
 }
 .navmenu-li > .overlay {

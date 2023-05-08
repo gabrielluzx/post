@@ -2,8 +2,8 @@
     position: relative;
 }
 .video {
-    width: 90%;
-    height: 90%;
+    width: 95%;
+    height: auto;
     display: block;
     aspect-ratio: 16/9;
     margin: 0 auto;

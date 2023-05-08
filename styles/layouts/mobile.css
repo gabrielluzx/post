@@ -1,0 +1,76 @@
+@keyframes close-on-click {
+    0% {width: 100vw;}
+    100% {width: 0vw;}
+}
+@keyframes width-on-click {
+    0% {width: 0vw;}
+    100%{width: 100vw;}
+}
+@media screen and (max-width: 766px) {
+    .menu-icon {
+        display: block;
+        float: right;
+        margin-top: 22px;
+        margin-right: 13px;
+    }
+    .navmenu {
+        display: none;
+        background-color: rgba(0, 0, 0, 0.50);
+        position: fixed;
+        top: 0;
+        right: 0;
+        width: 0vw;
+        height: 100vh;
+        animation-name: width-on-click;
+        animation-duration: .3s;
+        animation-fill-mode: forwards;
+    }
+    .close-icon {
+        display: block;
+        float: right;
+        margin: 25px;
+    }
+    .navmenu-li {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+    h1.title {
+        font-size: 1.8rem;
+    }
+    h2.title {
+        font-size: 1.6rem;
+    }
+    h3.title {
+        font-size: 1.4rem;
+    }
+}
+@media screen and (max-width: 500px) {
+    .logo-image {
+        box-sizing: border-box;
+        width: 40px;
+        height: 40px;
+        margin-top: 15px;
+    }
+    h1.title {
+        font-size: 1.6rem;
+    }
+    h2.title {
+        font-size: 1.4rem;
+    }
+    h2.title {
+        font-size: 1.3rem;
+    }
+    .footer-ul {
+        column-count: 3;
+    }
+    .ul-link {
+        height: max-content;
+        font-size: 0.8em;
+    }
+}
+@media screen and (max-width: 388px) {
+    .footer-ul {
+        column-count: 2;
+    }
+}

@@ -1,6 +1,8 @@
 .close-icon {
     display: none;
+    cursor: pointer;
     width: 30px;
     height: 30px;
-    background: transparent url("../content/icons/css_sprites.png") no-repeat -70px -10px;
+    background: transparent url("./close-icon.png") no-repeat;
+    background-size: cover;
 }

@@ -2,7 +2,6 @@
     list-style: none;
     font-family: var(--text);
     width: max-content;
-    margin: 0 auto;
 }
 .breadcrumb-li:not(:first-child)::before {
     content: " / ";

@@ -9,6 +9,9 @@
 .menu-icon, .close-icon {
     display: none;
 }
+.navmenu {
+    display: block;
+}
 
 .main {
     max-width: 56.25rem;

@@ -1,5 +1,5 @@
 .text {
-    font: 1.5rem var(--text-font);
+    font: 1rem var(--text);
     text-align: justify;
     text-indent: 1.5rem;
     line-height: 1.9rem;

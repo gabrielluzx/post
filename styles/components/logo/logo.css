@@ -1,4 +1,3 @@
-@import url(./rotate-animation.css);
 .logo-container {
     cursor: pointer;
     width: max-content;
@@ -7,8 +6,6 @@
     float: left;
 }
 .logo-container .logo-image {
-    transform: translate(-100px, 0) rotate(0deg);
-    animation: logo-rotate .5s linear forwards;
     float: left;
 }
 .logo-container .logo-title {

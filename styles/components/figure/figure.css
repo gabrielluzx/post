@@ -3,11 +3,10 @@
     margin: 1.25rem;
 }
 .figure {
-    width: 90%;
+    width: 100%;
     height: auto;
     border-radius: 0.1875rem;
     object-fit: cover;
-    aspect-ratio: 8/5;
 }
 .figure-caption {
     font-variant: small-caps; 

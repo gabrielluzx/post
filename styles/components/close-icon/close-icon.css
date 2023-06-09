@@ -3,6 +3,5 @@
     cursor: pointer;
     width: 30px;
     height: 30px;
-    background: transparent url("./css_sprites.png") no-repeat;
-    background-position:  -70px -10px;
+    background: transparent url("./css_sprites.png") no-repeat -70px -10px;
 }

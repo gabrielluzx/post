@@ -1,0 +1,8 @@
+@charset "utf-8";
+@import "";
+
+* {
+	box-sizing: content-box;
+	padding: 0;
+	margin: 0;
+}

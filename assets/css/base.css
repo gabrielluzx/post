@@ -8,20 +8,29 @@
 }
 :root {
 	/*VARIABLES*/
-	--pd-ssm: 5px;
-	--pd-sm: 10px;
-	--pd-md: 15px;
-	--pd-bg: 20px;
 	
-	--br-ssm: 5px;
-	--br-sm: 10px;
-	--br-md: 15px;
-	--br-bg: 20px;
+	/*
+	*	SIZES:
+	*	0.3125rem = 5px
+	*	0.6250rem = 10px
+	*	0.9375rem = 15px
+	*	1.25rem = 20px
+	*/
 
-	--mg-ssm: 5px;
-	--mg-sm: 10px;
-	--mg-md: 15px;
-	--mg-bg: 20px;
+	--pd-ssm: 0.3125rem;
+	--pd-sm: 0.6250rem;
+	--pd-md: 0.9375rem;
+	--pd-bg: 1.25rem;
+	
+	--br-ssm: 0.3125rem;
+	--br-sm: 0.6250rem;
+	--br-md: 0.9375rem;
+	--br-bg: 1.25rem;
+
+	--mg-ssm: 0.3125rem;
+	--mg-sm: 0.6250rem;
+	--mg-md: 0.9375rem;
+	--mg-bg: 1.25rem;
 
 	--font-display: serif;
 	--font-text: sans-serif;

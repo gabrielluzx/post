@@ -1,7 +1,7 @@
 #header {
 	display: flex;
 	justify-content: space-between;
-	padding: 0 var(--pd-bg);
+	padding: var(--pd-sm) var(--pd-bg);
 }
 #main {
 	padding: var(--pd-md) var(--pd-bg);

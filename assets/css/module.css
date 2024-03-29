@@ -1,1 +1,9 @@
-module.css
+a#skip-link {
+	display: none;
+	position: fixed;
+	inset: 0;
+}
+
+#menu {
+	display: none;
+}

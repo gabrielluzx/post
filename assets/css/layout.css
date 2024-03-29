@@ -1,21 +1,25 @@
 #header {
-	
+	display: flex;
+	justify-content: space-between;
+	padding: 0 var(--pd-bg);
 }
 #main {
-
+	padding: var(--pd-md) var(--pd-bg);
+	background-color: var(--color-secondary, beige);
 }
-#content {
-
-}
-#content-header {
-
-}
-.content-section {
-
-}
+#content-header,
+.content-section,
 .content-extra {
-
+	padding: var(--pd-md) 0;
+	margin: var(--mg-sm) 0;
 }
 #footer {
-
+	display: grid;
+	grid-auto-columns: auto auto auto;
+	padding: var(--pd-md);
+}
+#header,
+#footer {
+	color: white;
+	background-color: var(--color-primary, gray);
 }

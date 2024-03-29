@@ -1,9 +1,21 @@
-a#skip-link {
-	display: none;
+.skip-link {
 	position: fixed;
-	inset: 0;
+	top: -100%;
+	display: block;
+	border-radius: var(--br-ssm);
+	padding: var(--pd-sm);
+	color: var(--color-primary);
+	background-color: white;
+	box-shadow: 0px 0px 10px white;
+	text-decoration: underline black dotted 2px;
+}
+.logo {
+	display: flex;
+	background-color: red;
 }
 
-#menu {
+
+
+.menu {
 	display: none;
 }

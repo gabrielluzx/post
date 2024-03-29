@@ -1,8 +1,30 @@
 @charset "utf-8";
-@import "";
 
 * {
+	/*RESET*/
 	box-sizing: content-box;
 	padding: 0;
 	margin: 0;
+}
+:root {
+	/*VARIABLES*/
+	--pd-ssm: 5px;
+	--pd-sm: 10px;
+	--pd-md: 15px;
+	--pd-bg: 20px;
+	
+	--br-ssm: 5px;
+	--br-sm: 10px;
+	--br-md: 15px;
+	--br-bg: 20px;
+
+	--mg-ssm: 5px;
+	--mg-sm: 10px;
+	--mg-md: 15px;
+	--mg-bg: 20px;
+
+	--font-display: serif;
+	--font-text: sans-serif;
+	--color-primary: #000;
+	--color-secondary: #000;
 }

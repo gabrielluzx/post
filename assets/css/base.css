@@ -32,7 +32,8 @@
 	--mg-md: 0.9375rem;
 	--mg-bg: 1.25rem;
 
-	--font-display: serif;
+	--font-display: display;
+	--font-title: serif;
 	--font-text: sans-serif;
 	--color-primary: #000;
 	--color-secondary: #fff;

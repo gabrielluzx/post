@@ -1,3 +1,8 @@
+/* TODO
+*  Criar os estados desse link, como ex. focus
+*  Criar o menu e seus estados
+*/
+/*SKIP LINK MODULE*/
 .skip-link {
 	position: fixed;
 	top: -100%;
@@ -9,13 +14,142 @@
 	box-shadow: 0px 0px 10px white;
 	text-decoration: underline black dotted 2px;
 }
+
+/*LOGO MODULE*/
 .logo {
 	display: flex;
 	background-color: red;
+	height: 48px;
+}
+.logo-icon {
+	background-color: white;
+}
+.logo-type {
+	padding-top: var(--pd-ssm);
+	font: 1.8rem var(--font-display);
+	text-transform: capitalize;
+
+	background-color: blue;
 }
 
-
-
-.menu {
+/*BTN-MENU MODULE*/
+.btn-menu {
+	position: relative;
+	width: 50px;
+	height: 50px;
+	border: none;
+	border-radius: var(--br-ssm);
+	
+	background-color: blue;
+}
+.bar {
+	display: block;
+	width: 80%;
+	height: 7%;
+	border-radius: var(--br-sm);
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	background-color: white;
+}
+.bar:nth-child(1) {
+	top: 15%;
+}
+.bar:nth-child(2) {
+	top: 45%;
+}
+.bar:nth-child(3) {
+	top: 74.5%;
+}
+.hidden-label {
 	display: none;
 }
+
+/*MENU MODULE*/
+.menu {
+	display: none;
+	position: fixed;
+	inset: 0%;
+	width: 100vw;
+	height: 100vh;
+
+	background-color: red;
+}
+.menu-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	width: inherit;
+	height: 70%;
+	padding: 15% 0;
+}
+.menu-item {
+	display: block;
+	width: inherit;
+	height: 15%;
+	position: relative;
+	text-align: center;
+
+	background-color: white;
+}
+.menu-link {
+	display: block;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font: 1.4rem var(--font-display);
+	text-decoration: underline;
+	color: black;
+}
+
+/*BREADCRUMBS MODULE*/
+.breadcrumbs {
+	width: fit-content;
+	margin: 0 auto;
+}
+.breadcrumbs-container {
+	display: flex;
+}
+.breadcrumb-item {
+	max-width: 100px;
+	margin: 0 var(--mg-md);
+	position: relative;
+	text-transform: capitalize;
+	background-color: white;
+}
+.breadcrumb-item:not(:last-child)::after {
+	content: ">";
+	display: block;
+	position: absolute;
+	left: 115%;
+	top: 0;
+	font-weight: bold;
+}
+
+/*TITLE MODULE*/
+.title {
+	margin: 0 0  var(--mg-md) 0;
+	font-family: var(--font-title);
+
+	background-color: blue;
+}
+h1.title {
+	font-size: 1.8rem;
+}
+h2.title {
+	font-size: 1.6rem;
+}
+h3.title {
+	font-size: 1.4rem;
+}
+
+/*TEXT MODULE*/
+.text {
+	margin: var(--mg-sm) 0 0 0;
+	font: 1rem var(--font-text);
+
+	background-color: blue;
+}
+
+/*IMG MODULE*/

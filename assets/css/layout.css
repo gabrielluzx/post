@@ -4,7 +4,9 @@
 	padding: var(--pd-sm) var(--pd-bg);
 }
 #main {
+	max-width: 810px;
 	padding: var(--pd-md) var(--pd-bg);
+	margin: 0 auto;
 	background-color: var(--color-secondary, beige);
 }
 #content-header,

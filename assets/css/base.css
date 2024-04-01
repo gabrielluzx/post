@@ -35,6 +35,11 @@
 	--font-display: display;
 	--font-title: serif;
 	--font-text: sans-serif;
+
 	--color-primary: #000;
 	--color-secondary: #fff;
+	--color-thirdary: #999;
+
+	--theme-dark-color: ;
+	--theme-light-color: ;
 }

@@ -17,7 +17,11 @@
 }
 #footer {
 	display: grid;
-	grid-auto-columns: auto auto auto;
+	grid-template-columns: repeat(5, 1fr);
+	grid-template-areas:
+	'menus menus menus menus menus'
+	'divisor divisor divisor divisor divisor' 
+	'credits credits credits credits credits';
 	padding: var(--pd-md);
 }
 #header,

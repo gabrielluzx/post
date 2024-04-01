@@ -1,12 +1,11 @@
 /* TODO
-*  Criar os estados desse link, como ex. focus
-*  Criar o menu e seus estados
+*  Criar os estados de menu, links e breadcrumb 
 */
 /*SKIP LINK MODULE*/
 .skip-link {
+	display: block;
 	position: fixed;
 	top: -100%;
-	display: block;
 	border-radius: var(--br-ssm);
 	padding: var(--pd-sm);
 	color: var(--color-primary);
@@ -18,18 +17,14 @@
 /*LOGO MODULE*/
 .logo {
 	display: flex;
-	background-color: red;
-	height: 48px;
-}
-.logo-icon {
-	background-color: white;
+	align-items: center;
+	height: 50px;
 }
 .logo-type {
-	padding-top: var(--pd-ssm);
+	height: fit-content;
 	font: 1.8rem var(--font-display);
 	text-transform: capitalize;
-
-	background-color: blue;
+	user-select: none;
 }
 
 /*BTN-MENU MODULE*/
@@ -40,8 +35,8 @@
 	border: none;
 	border-radius: var(--br-ssm);
 	margin: var(--mg-ssm) 0;
-
-	background-color: blue;
+	cursor: pointer;
+	background-color: rgba(0, 0, 0, 0);
 }
 .bar {
 	display: block;
@@ -51,6 +46,7 @@
 	position: absolute;
 	left: 50%;
 	transform: translateX(-50%);
+
 	background-color: white;
 }
 .bar:nth-child(1) {
@@ -58,6 +54,7 @@
 }
 .bar:nth-child(2) {
 	top: 45%;
+	width: 100%;
 }
 .bar:nth-child(3) {
 	top: 74.5%;
@@ -111,29 +108,28 @@
 }
 .breadcrumbs-container {
 	display: flex;
+	list-style: none;
 }
 .breadcrumb-item {
 	max-width: 100px;
 	margin: 0 var(--mg-md);
 	position: relative;
+	font: 1rem var(--font-text);
 	text-transform: capitalize;
-	background-color: white;
+	user-select: none;
 }
 .breadcrumb-item:not(:last-child)::after {
 	content: ">";
-	display: block;
 	position: absolute;
 	left: 115%;
 	top: 0;
-	font-weight: bold;
+	font: bold 1rem var(--font-text);
 }
 
 /*TITLE MODULE*/
 .title {
-	margin: 0 0  var(--mg-md) 0;
+	margin-bottom: var(--mg-md);
 	font-family: var(--font-title);
-
-	background-color: blue;
 }
 h1.title {
 	font-size: 1.8rem;
@@ -147,17 +143,15 @@ h3.title {
 
 /*TEXT MODULE*/
 .text {
-	margin: var(--mg-sm) 0 0 0;
+	margin-top: var(--mg-sm);
 	font: 1rem var(--font-text);
-
-	background-color: blue;
 }
 
 /*SUMMARY MODULE*/
 .summary {
-	margin: var(--mg-md) 0 0 0;
+	margin-top: var(--mg-md);
+	user-select: none;
 
-	background-color: blue;
 }
 .summary-container {
 	padding: var(--pd-bg);
@@ -167,18 +161,19 @@ h3.title {
 /*IMAGE MODULE*/
 .img-container {
 	margin: var(--mg-md) auto;
-	background-color: aqua;
 }
 .img {
 	display: block;
 	max-width: 100%;
 	height: auto;
-	object-fit: contain;
-
 }
 .img-caption {
 	padding: var(--pd-ssm);
+	
 	text-align: center;
+}
+.img-caption > * {
+	font: 0.8rem var(--text-font);
 }
 
 /*LINK MODULE*/
@@ -199,7 +194,6 @@ a.creation-credits-link {
 /*VIDEO MODULE*/
 .video-container {
 	margin: var(--mg-md) auto;
-	background-color: aqua;
 }
 .video {
 	display: block;
@@ -211,31 +205,35 @@ a.creation-credits-link {
 
 /*FOOTER MENUS MODULE*/
 .footer-menus-container {
+	grid-area: menus;
 	display: flex;
 	justify-content: space-between;
-	max-width: 300px;
-	padding: var(--pd-sm);
+	padding: var(--pd-ssm) 0;
 	margin: var(--mg-sm) 0;
-	background-color: red;
 }
 .footer-menu {
 	text-align: center;
+	list-style: none;
 }
 .footer-menu-link {
+	display: inline-block;
+	padding: var(--pd-sm);
 	font-size: 0.7rem;
+
 }
 
 /*DIVISOR MODULE*/
 .divisor {
+	grid-area: divisor;
+	margin: var(--mg-sm) 0;
 	color: var(--color-secondary);
 }
 
 /*CREDITS MODULE*/
 .creation-credits {
+	grid-area: credits;
 	margin: var(--mg-sm) 0;
 	text-align: center;
-	
-	background-color: red;
 }
 .creation-credits-text {
 	font: 0.8rem var(--display-font);

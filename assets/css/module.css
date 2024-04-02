@@ -18,7 +18,7 @@
 .logo {
 	display: flex;
 	align-items: center;
-	height: 50px;
+	height: 48px;
 }
 .logo-type {
 	height: fit-content;
@@ -36,6 +36,7 @@
 	border-radius: var(--br-ssm);
 	margin: var(--mg-ssm) 0;
 	cursor: pointer;
+	user-select: none;
 	background-color: rgba(0, 0, 0, 0);
 }
 .bar {
@@ -166,6 +167,7 @@ h3.title {
 	display: block;
 	max-width: 100%;
 	height: auto;
+	border-radius: var(--br-ssm);
 }
 .img-caption {
 	padding: var(--pd-ssm);

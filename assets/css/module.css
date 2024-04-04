@@ -66,40 +66,27 @@
 
 /*MENU MODULE*/
 .menu {
-	display: none;
-	position: fixed;
-	inset: 0%;
-	width: 100vw;
-	height: 100vh;
-
-	background-color: red;
+	position: absolute;
+	top: 70px;
+	left: 0;
+	width: 100%;
+	background-color: var(--color-primary);
 }
 .menu-container {
 	display: flex;
-	flex-direction: column;
-	justify-content: space-around;
-	width: inherit;
-	height: 70%;
-	padding: 15% 0;
+	justify-content: space-between;
+	padding: 0 var(--pd-bg);
+	list-style: none;
 }
 .menu-item {
-	display: block;
-	width: inherit;
-	height: 15%;
-	position: relative;
-	text-align: center;
-
-	background-color: white;
+	width: fit-content;
 }
 .menu-link {
-	display: block;
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	font: 1.4rem var(--font-display);
-	text-decoration: underline;
-	color: black;
+	display: inline-block;
+	padding: var(--pd-md);
+	text-decoration: none;
+	color: var(--color-secondary);
+	font-size: min(3.5vw, 1rem);
 }
 
 /*BREADCRUMBS MODULE*/

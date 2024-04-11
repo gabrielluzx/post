@@ -192,31 +192,6 @@ a.creation-credits-link {
 	border: none;
 }
 
-/*FOOTER MENUS MODULE*/
-.footer-menus-container {
-	grid-area: menus;
-	display: flex;
-	justify-content: space-between;
-	padding: var(--pd-ssm) 0;
-	margin: var(--mg-sm) 0;
-}
-.footer-menu {
-	text-align: center;
-	list-style: none;
-}
-.footer-menu-link {
-	display: inline-block;
-	padding: var(--pd-sm);
-	font-size: 0.7rem;
-
-}
-
-/*DIVISOR MODULE*/
-.divisor {
-	grid-area: divisor;
-	margin: var(--mg-sm) 0;
-	color: var(--color-secondary);
-}
 
 /*CREDITS MODULE*/
 .creation-credits {

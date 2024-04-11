@@ -195,8 +195,6 @@ a.creation-credits-link {
 
 /*CREDITS MODULE*/
 .creation-credits {
-	grid-area: credits;
-	margin: var(--mg-sm) 0;
 	text-align: center;
 }
 .creation-credits-text {

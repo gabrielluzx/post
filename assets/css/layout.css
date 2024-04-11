@@ -16,13 +16,7 @@
 	margin: var(--mg-sm) 0;
 }
 #footer {
-	display: grid;
-	grid-template-columns: repeat(5, 1fr);
-	grid-template-areas:
-	'menus menus menus menus menus'
-	'divisor divisor divisor divisor divisor' 
-	'credits credits credits credits credits';
-	padding: var(--pd-md);
+	padding: var(--pd-sm);
 }
 #header,
 #footer {

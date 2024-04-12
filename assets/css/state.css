@@ -1,5 +1,19 @@
-.breadcrumb-item:last-child {
+.is-hidden {
+	display: none;
+}
+.is-visible {
+	display: block;
+}
+
+.breadcrumbs:has(.is-expanded) {
+	margin: 0 auto;
+}
+.breadcrumb-item.is-retracted {
+	width: 100px;
 	overflow: hidden;
 	text-overflow: ellipsis;
 	white-space: nowrap;
+}
+.breadcrumb-item.is-expanded {
+	overflow: visible;
 }

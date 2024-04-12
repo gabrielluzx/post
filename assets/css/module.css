@@ -99,12 +99,14 @@
 	list-style: none;
 }
 .breadcrumbs .breadcrumb-item {
-	max-width: 100px;
 	margin: 0 var(--mg-md);
-	position: relative;
 	font: 1rem var(--font-text);
 	text-transform: capitalize;
 	user-select: none;
+}
+.breadcrumb-item:not(:last-child) {
+	max-width: 100px;
+	position: relative;
 }
 .breadcrumbs .breadcrumb-item:not(:last-child)::after {
 	content: ">";
@@ -112,6 +114,9 @@
 	left: 115%;
 	top: 0;
 	font: bold 1rem var(--font-text);
+}
+.breadcrumbs .breadcrumb-item:last-child {
+	cursor: pointer;
 }
 
 /*TITLE MODULE*/
